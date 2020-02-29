@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "641815138762",
+    "firebase_url": "https://infoleaguenuevo.firebaseio.com",
+    "project_id": "infoleaguenuevo",
+    "storage_bucket": "infoleaguenuevo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641815138762:android:253bada94db05d6f7f3f33",
+        "android_client_info": {
+          "package_name": "com.example.infoleaguenuevo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641815138762-1q8te6f3pv65kikb0gdk47l356nnnu0e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.infoleaguenuevo",
+            "certificate_hash": "c1510e982615c22bdab3f628bf560bd7f6e28e93"
+          }
+        },
+        {
+          "client_id": "641815138762-d7sqvlbcgure39oho3av0um8bavgks7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAJP3mVWhd8wheKb6oTag5MpJRu_DZfOs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641815138762-d7sqvlbcgure39oho3av0um8bavgks7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

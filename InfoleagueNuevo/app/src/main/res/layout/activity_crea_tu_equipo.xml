@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".CreaTuEquipoActivity">
+
+    <EditText
+        android:id="@+id/TxtNameTeam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/hint_name"
+        android:inputType="textPersonName"
+        android:textColor="#6ED68B"
+        android:textColorHint="#6ED68B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/TxtColorTeam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/hint_teamColor"
+        android:inputType="text"
+        android:textColor="#6ED68B"
+        android:textColorHint="#6ED68B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/TxtTeamPlayers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/hint_teamPlayers"
+        android:inputType="number"
+        android:textColor="#6ED68B"
+        android:textColorHint="#6ED68B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/TxtTeamPoints"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/hint_teamPoints"
+        android:inputType="number"
+        android:textColor="#6ED68B"
+        android:textColorHint="#6ED68B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#75C996"
+        android:text="Lista de Equipos" />
+
+    <ListView
+        android:id="@+id/lv_datosEquipos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#86E0A9" />
+
+</LinearLayout>

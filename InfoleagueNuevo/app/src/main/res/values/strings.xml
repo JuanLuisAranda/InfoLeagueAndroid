@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">InfoleagueNuevo</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email" translatable="false">email@email.com</string>
+    <string name="hint_password">Password</string>
+    <string name="label_signIn">Sign In</string>
+    <string name="label_login">Login</string>
+    <string name="label_goToLogin">Go To Login</string>
+    <string name="label_goToSignIn">Go To Sign In</string>
+    <string name="bienvenidoText">Estos son los equipos de la primera división de la liga española</string>
+    <string name="bienvenido">Listado de Equipos</string>
+
+    <string name="hint_teamName">Nombre del equipo</string>
+    <string name="hint_teamColor">Color principal del equipo</string>
+    <string name="hint_teamPlayers">Nº de Jugadores del equipo</string>
+    <string name="hint_teamPoints">Puntos del equipo</string>
+</resources>
