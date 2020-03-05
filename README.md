@@ -28,6 +28,8 @@ Esta es la sección del usuario, la cual en un principio solo tenemos una imagen
 
 Esta es la primera ventana que se abre justo después de hacer el logeo. También viene incluido un **Toast** en la parte inferior de la pantalla dando la bienvenida.
 
+Pulsando en el botón de **Aceptar** se mostrará el resto de la aplicación.
+
 ![Captura Usuario](usuario.png)
 
 ## Navegación - Menú
@@ -42,7 +44,7 @@ La navegación de la aplicacion se realiza mediando un menú el cual esta formad
 
 ## Listado de Equipos
 
-Esto sería el cuerpo de la aplicación, en el cual se muestra un listado de todos los equipos y en el que próximamente añadiré más funcionalidades.
+Esto sería el cuerpo de la aplicación, en el cual se muestra un listado de todos los equipos.
 
 ![Captura 3](listado.png)
 
